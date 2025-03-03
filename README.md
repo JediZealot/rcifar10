@@ -11,6 +11,12 @@ Input (32x32x3) --> [Conv2D (3x3, 32, ReLU)] --> [Conv2D (3x3, 32, ReLU)] --> [M
 [Conv2D (3x3, 64, ReLU)] --> [Conv2D (3x3, 64, ReLU)] --> [MaxPooling2D (2x2)] --> [Dropout (0.25)] -->
 [Flatten] --> [Dense (512, ReLU)] --> [Dropout (0.5)] --> [Dense (10, Softmax)] --> Output (10 classes)
 
+Validation (15 epochs):
+Accuracy: 0.7705 - Loss: 0.6681
+
+Test
+Accuracy: 0.7637  - Loss: 0.6928567 
+
 
 Demonstration of the model output (code included)
 
